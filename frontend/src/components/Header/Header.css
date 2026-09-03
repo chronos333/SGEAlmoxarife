@@ -1,0 +1,157 @@
+.header-urbano {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.75rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border-color);
+  background: #ffffff;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1.15rem;
+}
+
+.logo-badge {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background: #2563eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+}
+
+.logo-icon {
+  position: relative;
+  z-index: 2;
+}
+
+.logo-pulse {
+  position: absolute;
+  inset: -3px;
+  border-radius: var(--radius-md);
+  background: rgba(37, 99, 235, 0.2);
+  animation: pulseRadar 2.5s infinite ease-out;
+  z-index: 1;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #0f172a;
+}
+
+.badge-versao {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.2rem 0.6rem;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  color: #1d4ed8;
+  border-radius: var(--radius-full);
+}
+
+.header-subtitle {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 0.1rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.stat-pill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-md);
+  min-width: 90px;
+}
+
+.stat-pill-label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.stat-pill-value {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #0f172a;
+  font-family: var(--font-mono);
+}
+
+.pill-pendente .stat-pill-value {
+  color: #d97706;
+}
+
+.pill-resolvido .stat-pill-value {
+  color: #059669;
+}
+
+.status-conexao {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 0.85rem;
+  border-radius: var(--radius-full);
+  font-size: 0.775rem;
+  font-weight: 600;
+}
+
+.status-conexao.online {
+  background: #ecfdf5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+}
+
+.status-conexao.offline {
+  background: #fef2f2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
+
+.icon-pulse {
+  animation: pulseGlow 1.5s infinite;
+}
+
+@media (max-width: 900px) {
+  .header-urbano {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding: 1.25rem;
+  }
+  
+  .header-right {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+  }
+}

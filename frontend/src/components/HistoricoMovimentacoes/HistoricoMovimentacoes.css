@@ -1,0 +1,139 @@
+.card-historico {
+  padding: 1.75rem;
+}
+
+.card-historico-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.filtro-tipo-historico {
+  display: flex;
+  gap: 0.5rem;
+  background: var(--bg-input);
+  padding: 0.25rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+}
+
+.btn-filtro-hist {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  padding: 0.4rem 0.85rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-filtro-hist.ativo {
+  background: var(--primary);
+  color: #0f172a;
+}
+
+.btn-filtro-hist.btn-hist-entrada.ativo {
+  background: var(--success);
+  color: #0f172a;
+}
+
+.btn-filtro-hist.btn-hist-saida.ativo {
+  background: var(--danger);
+  color: #ffffff;
+}
+
+.tabela-historico {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.tabela-historico th {
+  background: rgba(15, 23, 42, 0.85);
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.tabela-historico td {
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.08);
+  font-size: 0.9rem;
+}
+
+.linha-historico:hover {
+  background: rgba(51, 65, 85, 0.3);
+}
+
+.col-data {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.badge-operacao {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.3rem 0.65rem;
+  border-radius: var(--radius-full);
+}
+
+.badge-in {
+  background: var(--success-bg);
+  color: #34d399;
+  border: 1px solid var(--success-border);
+}
+
+.badge-out {
+  background: var(--danger-bg);
+  color: #f87171;
+  border: 1px solid var(--danger-border);
+}
+
+.hist-prod-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.hist-prod-sku {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-family: monospace;
+}
+
+.hist-qtd {
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+
+.qtd-in {
+  color: #34d399;
+}
+
+.qtd-out {
+  color: #f87171;
+}
+
+.hist-user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.hist-user-name {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.hist-user-cargo {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}

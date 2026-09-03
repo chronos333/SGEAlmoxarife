@@ -1,0 +1,206 @@
+{
+  "usuarios": [
+    {
+      "nome": "Cidadão de Americana",
+      "id": "XTDKg24O4F4"
+    }
+  ],
+  "enderecos": [
+    {
+      "id": "1",
+      "cep": "13465-000",
+      "rua": "Rua Fernando Camargo",
+      "logradouro": "Rua Fernando Camargo",
+      "bairro": "Centro",
+      "complemento": "lado ímpar",
+      "cidade": "Americana",
+      "uf": "SP",
+      "lat": -22.7391,
+      "lng": -47.3325
+    },
+    {
+      "id": "2",
+      "cep": "13466-320",
+      "rua": "Rua Dom Pedro II",
+      "logradouro": "Rua Dom Pedro II",
+      "bairro": "Vila Santa Catarina",
+      "complemento": "até 500",
+      "cidade": "Americana",
+      "uf": "SP",
+      "lat": -22.7445,
+      "lng": -47.3278
+    },
+    {
+      "id": "3",
+      "cep": "13468-550",
+      "rua": "Avenida Iacanga",
+      "logradouro": "Avenida Iacanga",
+      "bairro": "Jardim Ipiranga",
+      "complemento": "lado par",
+      "cidade": "Americana",
+      "uf": "SP",
+      "lat": -22.7612,
+      "lng": -47.3489
+    },
+    {
+      "id": "4",
+      "cep": "13478-000",
+      "rua": "Avenida Brasil",
+      "logradouro": "Avenida Brasil",
+      "bairro": "Jardim Santo Antônio",
+      "complemento": "próximo ao Parque Ecológico",
+      "cidade": "Americana",
+      "uf": "SP",
+      "lat": -22.746,
+      "lng": -47.341
+    },
+    {
+      "cep": "13470-180",
+      "rua": "Rua Canadá",
+      "logradouro": "Rua Canadá",
+      "bairro": "Parque das Nações",
+      "complemento": "",
+      "cidade": "Americana",
+      "uf": "SP",
+      "lat": -22.73162,
+      "lng": -47.34572,
+      "id": "wIhI2umOFrE"
+    }
+  ],
+  "denuncias": [
+    {
+      "id": "2",
+      "problemaPrincipal": "Vazamento de água limpa no asfalto",
+      "descricao": "Canalização subterrânea rompida vertendo água potável continuamente pela sarjeta.",
+      "tempoDoProblema": "Há 4 dias",
+      "tipoDoProblema": "saneamento",
+      "totalOcorrencias": 2,
+      "status": "resolvido",
+      "enderecoId": "2",
+      "cep": "13466-320",
+      "dataResolucao": "2026-09-03T11:20:19.535Z"
+    },
+    {
+      "id": "3",
+      "problemaPrincipal": "Semáforo piscando em alerta no cruzamento movimentado",
+      "descricao": "Risco iminente de colisão no entroncamento comercial da avenida nos horários de pico.",
+      "tempoDoProblema": "Há 1 semana",
+      "tipoDoProblema": "estrutural",
+      "totalOcorrencias": 2,
+      "status": "pendente",
+      "enderecoId": "3",
+      "cep": "13468-550"
+    },
+    {
+      "id": "4",
+      "problemaPrincipal": "Descarte irregular de galhos e entulho na ciclovia",
+      "descricao": "Restos de poda e sacos de lixo obstruindo a pista de caminhada e ciclovia da Av. Brasil.",
+      "tempoDoProblema": "Há 2 dias",
+      "tipoDoProblema": "saneamento",
+      "totalOcorrencias": 1,
+      "status": "pendente",
+      "enderecoId": "4",
+      "cep": "13478-000"
+    },
+    {
+      "problemaPrincipal": "Ruas totalmente desalinhasdas e falta de luz",
+      "descricao": "...",
+      "tempoDoProblema": "Mais de 2 semanas",
+      "tipoDoProblema": "estrutural",
+      "totalOcorrencias": 1,
+      "status": "pendente",
+      "enderecoId": "wIhI2umOFrE",
+      "cep": "13470-180",
+      "id": "HhfxASOKTyM"
+    }
+  ],
+  "listaDeDenuncias": [
+    {
+      "id": "4",
+      "dataDenuncia": "2026-08-30",
+      "horaDenuncia": "08:20:00",
+      "autorDenuncia": "Munícipe da Vila Santa Catarina",
+      "caracteristicasDenuncia": "2",
+      "cep": "13466-320",
+      "detalhe": "Água minando perto da guia"
+    },
+    {
+      "id": "5",
+      "dataDenuncia": "2026-09-02",
+      "horaDenuncia": "11:45:00",
+      "autorDenuncia": "Morador da Região",
+      "caracteristicasDenuncia": "2",
+      "cep": "13466-320",
+      "detalhe": "Desperdício de água contínuo"
+    },
+    {
+      "id": "6",
+      "dataDenuncia": "2026-08-28",
+      "horaDenuncia": "17:50:00",
+      "autorDenuncia": "Motorista de Americana",
+      "caracteristicasDenuncia": "3",
+      "cep": "13468-550",
+      "detalhe": "Quase ocorreu colisão entre dois veículos"
+    },
+    {
+      "id": "7",
+      "dataDenuncia": "2026-09-01",
+      "horaDenuncia": "18:30:00",
+      "autorDenuncia": "Ciclista Urbano",
+      "caracteristicasDenuncia": "3",
+      "cep": "13468-550",
+      "detalhe": "Tráfego travado nos dois sentidos"
+    },
+    {
+      "id": "8",
+      "dataDenuncia": "2026-09-02",
+      "horaDenuncia": "07:15:00",
+      "autorDenuncia": "Praticante de Corrida",
+      "caracteristicasDenuncia": "4",
+      "cep": "13478-000",
+      "detalhe": "Entulho bloqueando passagem da ciclovia"
+    },
+    {
+      "dataDenuncia": "2026-09-03",
+      "horaDenuncia": "08:26:36",
+      "autorDenuncia": "Cidadão de Americana",
+      "caracteristicasDenuncia": "HhfxASOKTyM",
+      "cep": "13470-180",
+      "detalhe": "Manifestação registrada via portal cidadão de Americana",
+      "id": "KSqFVGLyGD8"
+    }
+  ],
+  "tiposDeProblema": [
+    {
+      "id": "problemaSocial",
+      "nome": "Problema Social",
+      "icone": "Users",
+      "emoji": "👥",
+      "descricao": "Questões sociais, moradores de rua, roubos, assaltos, vandalismo",
+      "exemplos": "moradores de rua, roubos, assaltos, vandalismo",
+      "cor": "#ef4444",
+      "corSecundaria": "#fee2e2"
+    },
+    {
+      "id": "estrutural",
+      "nome": "Estrutural",
+      "icone": "Building2",
+      "emoji": "🏗️",
+      "descricao": "Infraestrutura urbana, iluminação, tráfego, asfalto",
+      "exemplos": "encanamento, iluminação, tráfego",
+      "cor": "#f59e0b",
+      "corSecundaria": "#fef3c7"
+    },
+    {
+      "id": "saneamento",
+      "nome": "Saneamento",
+      "icone": "Droplets",
+      "emoji": "💧",
+      "descricao": "Descarte de lixo, esgotos, água de qualidade",
+      "exemplos": "descarte de lixo, coleta de lixo, água de qualidade, esgotos",
+      "cor": "#06b6d4",
+      "corSecundaria": "#cffafe"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
